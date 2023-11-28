@@ -14,4 +14,5 @@ The final output is a "*copy_position.csv" file to draw pictures.
 
 2. Motif in the coding region
 
-Run BB_motif/BB_motif_script.R in R.
+Download BB_motif_script.R and c1174_1_10353_tag4_distribute.txt.
+Run BB_motif_script.R in R.
