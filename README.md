@@ -13,7 +13,7 @@ $./RNA.sh query db out RNAlen
   
   RNAlen: input the length of RNA in the db file.
 
-  The final output is a "*copy_position.csv" file to draw pictures.
+  The final output is a "*copy_position.csv" file to draw diagrams.
 
 2. Motif in the coding region
 
