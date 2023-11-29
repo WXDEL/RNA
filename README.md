@@ -1,6 +1,6 @@
-Motif pipeline for DEL Zipper in RNA affinity selection 
+RNA focused motif warning pipeline for DEL Zipper in RNA affinity selection 
 
-1. Motif in the UMI region
+1. RNA focused motif warning pipeline in the UMI region
   Download "RNA.sh" and "Kmerout.py" into the same directory.
 
 $./RNA.sh query db out RNAlen
@@ -15,7 +15,7 @@ $./RNA.sh query db out RNAlen
 
   The final output is a "*copy_position.csv" file to draw diagrams.
 
-2. Motif in the coding region
+2. RNA focused motif warning pipeline in the coding region
 
   Download "BB_motif_script.R" and "c1174_1_10353_tag4_distribute.txt".
   Run "BB_motif_script.R" in R.
