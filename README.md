@@ -1,7 +1,7 @@
 Motif pipeline for DEL Zipper in RNA affinity selection 
 
 1. Motif in the UMI region
-  Download RNA.sh and Kmerout.py into the same directory.
+  Download "RNA.sh" and "Kmerout.py" into the same directory.
 
 $./RNA.sh query db out RNAlen
 
@@ -14,5 +14,5 @@ $./RNA.sh query db out RNAlen
 
 2. Motif in the coding region
 
-  Download BB_motif_script.R and c1174_1_10353_tag4_distribute.txt.
-  Run BB_motif_script.R in R.
+  Download "BB_motif_script.R" and "c1174_1_10353_tag4_distribute.txt".
+  Run "BB_motif_script.R" in R.
