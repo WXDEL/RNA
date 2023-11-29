@@ -1,4 +1,4 @@
-Motif pipeline for DEL-Zipper in RNA affinity selection 
+Motif pipeline for DEL Zipper in RNA affinity selection 
 
 1. Motif in the UMI region
 Download RNA.sh and Kmerout.py into the same directory.
