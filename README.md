@@ -6,8 +6,11 @@ Motif pipeline for DEL Zipper in RNA affinity selection
 $./RNA.sh query db out RNAlen
 
   query: a query file, UMI seqs and copy count in fasta format.
+  
   db: a db file: RNA seqs in fasta format.
+  
   out: an output file of alignment.
+  
   RNAlen: input the length of RNA in the db file.
 
   The final output is a "*copy_position.csv" file to draw pictures.
