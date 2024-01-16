@@ -5,7 +5,7 @@ tag_file<-c("c1174_1_10353_tag4_distribute.txt")
 tag<-paste("tag",sub("_distribute.txt","",unlist(strsplit(tag_file,"tag"))[2]),sep="")
 dilut<-read.table(tag_file)
 mean<-round(mean(dilut$V2),2)
-##outlier cutoff为 cnc > mean*5 or 10
+##outlier cutoff is cnc > mean*5 or 10
 big_num=c(table(dilut[,2]>(mean*10))['TRUE'])
 outlier=big_num
 outlier[is.na(outlier)]<-0
