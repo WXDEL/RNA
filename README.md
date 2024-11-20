@@ -1,11 +1,11 @@
 RNA focused motif warning pipeline for DEL Zipper in RNA affinity selection 
 
-1. RNA focused motif warning pipeline in the UMI region
+1. RNA focused motif warning pipeline (the alignment part)
   Download "RNA.sh" and "Kmerout.py" into the same directory.
 
 $./RNA.sh query db out RNAlen
 
-  query: a query file, UMI seqs and copy count in fasta format.
+  query: a query file, containing UMI seqs and corresponding copy counts in fasta format.
   
   db: a db file: RNA seqs in fasta format.
   
